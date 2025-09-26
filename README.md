@@ -28,8 +28,7 @@ File-based Encryption & Decryption: Supports secure encryption/decryption of tex
 
 Client applications dynamically load and use the encryption/decryption services, demonstrating strong modular design.
 
-<h3>Technology</h3>
-<br>
+
 <h5>Technology: </h5>C Programming
 
 <h5>Platform:</h5> Windows
@@ -39,8 +38,6 @@ Client applications dynamically load and use the encryption/decryption services,
 <h5>Development Environment:</h5> Visual Studio (Used to strengthen debugging skills and build Windows-specific applications.)
 
 <h4>Setup and Installation</h4>
-<br>
-<h5>Setup and Installation</h5>
 <br>
 Visual Studio (Recommended for easy setup and debugging of Win32 projects and DLLs).
 <br>
