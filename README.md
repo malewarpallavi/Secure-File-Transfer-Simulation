@@ -8,44 +8,46 @@ The core cryptographic logic is modularized into a Dynamic Link Library (DLL), m
 
 This project showcases low-level programming, system calls, and DLL development in a practical and secure context.
 
-Key Features
-1. Cryptography Implementation
+<h3>Key Features</h3>
+<h4>1. Cryptography Implementation</h4>
 File-based Encryption & Decryption: Supports secure encryption/decryption of text files.
 
-<h3>Multiple Algorithms:</h3>
+<h5>Multiple Algorithms:</h5>
 
-Caesar Cipher: (Character shift-based substitution)
+<h6>Caesar Cipher:</h6> (Character shift-based substitution)
 
-XOR Cipher: (Bitwise XOR with user-defined key)
+<h6>XOR Cipher: (Bitwise XOR with user-defined key)
 
-2. System-Level Programming
-System Call File Handling: Uses Win32 SDK APIs (CreateFile, ReadFile, WriteFile, CloseHandle) instead of high-level C functions (fopen, fread, etc.). This offers a deep dive into Windows' system I/O.
+<h4>2. System-Level Programming</h4>
+<h5>System Call File Handling:</h5> Uses Win32 SDK APIs (CreateFile, ReadFile, WriteFile, CloseHandle) instead of high-level C functions (fopen, fread, etc.). This offers a deep dive into Windows' system I/O.
 
-Low-Level Practice: Worked extensively with pointers, buffers, and string processing.
+<h5>Low-Level Practice: Worked extensively with pointers, buffers, and string processing.
 
-3. Modularity and Reusability
-DLL Integration: Exported reusable functions through a custom DLL.
+<h4>3. Modularity and Reusability</h4>
+<h5>DLL Integration:</h5> Exported reusable functions through a custom DLL.
 
 Client applications dynamically load and use the encryption/decryption services, demonstrating strong modular design.
 
-Technology<br>
-Technology: C Programming
+<h3>Technology</h3>
+<br>
+<h5>Technology: </h5>C Programming
 
-Platform: Windows
+<h5>Platform:</h5> Windows
 
-SDK: Win32 SDK, DLL
+<h5>SDK:</h5> Win32 SDK, DLL
 
-Development Environment: Visual Studio (Used to strengthen debugging skills and build Windows-specific applications.)
+<h5>Development Environment:</h5> Visual Studio (Used to strengthen debugging skills and build Windows-specific applications.)
 
-Setup and Installation
-Prerequisites
+<h4>Setup and Installation</h4>
+<br>
+<h5>Setup and Installation</h5>
+<br>
 Visual Studio (Recommended for easy setup and debugging of Win32 projects and DLLs).
-
+<br>
 A C/C++ compiler suite for Windows (e.g., MSVC).
 
-Steps
-Clone the Repository:
-
+<h4>Steps</h4>
+<h5>Clone the Repository:</h5>
 Bash
 
 git clone [repository-url]
@@ -68,5 +70,5 @@ Place the generated .exe and the .dll in the same execution directory.
 
 Run the client application from the command line or File Explorer.
 
-Usage
+<h4>Usage</h4>
 The application is run via the command line and will guide the user through specifying the input file, the operation (Encrypt/Decrypt), the algorithm (Caesar/XOR), the cryptographic key, and the output file path.
