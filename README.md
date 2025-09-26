@@ -16,7 +16,7 @@ File-based Encryption & Decryption: Supports secure encryption/decryption of tex
 
 <h6>Caesar Cipher:</h6> (Character shift-based substitution)
 
-<h6>XOR Cipher: (Bitwise XOR with user-defined key)
+<h6>XOR Cipher:</h6> (Bitwise XOR with user-defined key)
 
 <h4>2. System-Level Programming</h4>
 <h5>System Call File Handling:</h5> Uses Win32 SDK APIs (CreateFile, ReadFile, WriteFile, CloseHandle) instead of high-level C functions (fopen, fread, etc.). This offers a deep dive into Windows' system I/O.
