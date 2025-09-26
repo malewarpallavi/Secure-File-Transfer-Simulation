@@ -12,7 +12,7 @@ Key Features
 1. Cryptography Implementation
 File-based Encryption & Decryption: Supports secure encryption/decryption of text files.
 
-Multiple Algorithms:
+<h3>Multiple Algorithms:</h3>
 
 Caesar Cipher: (Character shift-based substitution)
 
@@ -28,7 +28,7 @@ DLL Integration: Exported reusable functions through a custom DLL.
 
 Client applications dynamically load and use the encryption/decryption services, demonstrating strong modular design.
 
-Technology
+Technology<br>
 Technology: C Programming
 
 Platform: Windows
